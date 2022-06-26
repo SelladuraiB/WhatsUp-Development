@@ -1,0 +1,199 @@
+C / C++	(1970)				
+-----------				
+* Platform dependent(wind ------- wind ,linux------linux,mac-------mac)
+* Runs single  application at  a time	
+python (1991)
+
+
+JAVA(1995)
+-------------
+* Platform independent ----write once and run anywhere (wind------wind,linux,mac)
+* Runs multiple  application at  a time
+*simple programming language -
+  -OOPs based -- Object Oriented Programming Structure(class,methods ,objects)
+*easy to run and debug
+	
+
+
+
+
+Featues of java
+==================
+1.Open source & freeware
+2.Platform independent  
+3.Multithreading  --parallel execution ---saves time
+4.portable---easy to carry  win--linux
+5.More secured(Fire Wall)  
+
+
+
+
+
+
+JDK   -- Java Development Kit
+--------------------------------------------
+	Whenever  if we  want to run  or  develop  a  program  in  java  , jdk is essential.
+
+	versions    1.0   to 1.16		
+
+	1.7 / 1.8   --->Testers mostly use
+		
+JDK---------JRE+JVM
+
+
+
+JRE   -- Java Runtime Environment  --- Why no header files in java???
+--------------  ---------------------------------------
+	Predefined  files  in  a library    	
+						
+	
+
+JVM  - Java Virtual Machine				
+------------------------------			
+	 used for memory allocation,execution,etc		
+
+
+ 
+
+TOOLS...
+========
+Notepad     	system						
+Eclipse -------------userfriendly write save run
+Netbeans-	
+			  			
+Jdeveloper-oracle			
+RAD-IBM
+			
+
+Eclipse Versions			
+--------------    
+Oxygen-3A
+Luna
+Photon
+Neon
+
+
+
+JDK 1.7/1.8	Eclipse Oxygen3A
+
+
+
+
+pls copy  this notes 
+------------------------
+
+OOPS  -- Object  Oriented Programming Structure
+
+OOPS -->	Collection of class, methods  and objects 
+	
+	-It is a method of implementation in which  program is organized as a collection of objects.
+
+	
+	Project   ---> Package  ---> Class --> Method  -->  Object			
+					
+
+Project ------  Collection  of  packages 
+	
+Package ------  Collection  of  Classes	        			
+								
+Class   ------  Collection  of  Methods,variables & objects   			     
+							
+Method ------  set of actions/logic will  be performed	--- business logic/implementation	  anu("hello")   dinesh("hii")   babu("welcome")        	
+								
+object-->  it is used to call a method , it is a run time memory allocation
+
+
+
+
+STANDARD NOTATION  / CODING STANDARD     
+-----------------------------------------------------------------		
+
+1. Pascal Notation  
+------------------
+	Each  word  of  1st   letter  should be  capital .
+	Followed  in  creating  project name  and  class name.
+
+	eg:  JavaProject10AMProgram      JavaEvening5pmBatch
+
+
+
+2. Camel Notation			
+-------------------------
+	1st word  -->small letter    
+	other word 1st letter -->Caps         javaEvening5PmBatch
+	
+	Followed  in  method name  , variable , object name
+
+	eg:   employeeDetails            
+
+	      atmPinNumber12
+
+how to Create  Method						
+---------------------			
+    	methodName(ctrl space)	 private void empId(){
+                                        }
+
+       System.out.println()  ---->  sysout(ctrl-space)                 
+    
+To  Start  Execution
+-------------------------
+main method ---->    main(ctrl space)	     		
+
+Object Creation - Syntax
+--------------------
+  ClassName   objectRefName = new ClassName(); //heap
+
+how to call a method
+----------------------
+objectRefName.methodName;
+
+
+//Example Prg
+package org.sample;
+
+public class CourseDetails {
+	private void javaCourse() {
+		System.out.println("java course started");
+
+	}
+	private void pythonCourse() {
+		System.out.println("python course started");
+	}
+	public static void main(String[] args) {
+	 //classname objname=new classname();
+	 CourseDetails c=new CourseDetails(); //heap
+	 //obj.methodname();
+	 c.javaCourse();
+	 c.pythonCourse();
+	 
+	 
+	 
+	 
+		
+		
+	}
+
+}
+o/p
+========
+java course started
+python course started
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
