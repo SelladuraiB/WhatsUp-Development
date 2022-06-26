@@ -5,10 +5,6 @@ C / C++	(1970)
 python (1991)
 
 
-Adding the audio call feature
-Adding the video call feature
-
-
 JAVA(1995)
 -------------
 * Platform independent ----write once and run anywhere (wind------wind,linux,mac)
